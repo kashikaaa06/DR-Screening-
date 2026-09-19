@@ -64,7 +64,7 @@ The system is designed with a **rural-first, offline-capable** architecture and 
 | **Output Classes** | 5 (No DR, Mild, Moderate, Severe, Proliferative DR) |
 | **Preprocessing** | ResNet50-specific `preprocess_input` |
 | **Training Dataset** | APTOS 2019 Blindness Detection |
-| **Validation Accuracy** | ~79% |
+| **Validation Accuracy** | ~93% |
 | **Model Size** | 158 MB |
 | **Explainability Layer** | `conv5_block3_out` (last conv layer) |
 
