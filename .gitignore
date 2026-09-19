@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environment variables (secrets)
+.env
+.env.local
+
+# Large model files — go in GitHub Releases
+ml-models/models/*.keras
+ml-models/models/*.h5
+ml-models/models/*.tflite
+ml-models/models/*.onnx
+ml-models/models/*.pth
+
+# Uploaded images and generated heatmaps
+app/static/uploads/*
+app/static/gradcam/*
+!app/static/uploads/.gitkeep
+!app/static/gradcam/.gitkeep
+
+# Test outputs
+ml-models/gradcam_output/*
+ml-models/test_images/*
+!ml-models/gradcam_output/.gitkeep
+!ml-models/test_images/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# OneDrive temp files
+~$*
+*.tmp
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
